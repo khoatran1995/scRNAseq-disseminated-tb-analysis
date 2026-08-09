@@ -32,7 +32,7 @@ I checked total gene counts (`nFeature_RNA`) and mitochondrial gene percentages 
 ---
 
 ### 3. Cell Type Annotation
-I visualized canonical lineage markers using `FeaturePlot` and `DotPlot` then assign the cell types to cluster based on information from :
+I visualized canonical lineage markers using `FeaturePlot` and `DotPlot` then assign the cell types to the clusters based on known information from https://satijalab.org/seurat/articles/pbmc3k_tutorial.html:
 
 #### Feature Expression Heatmaps
 ![Feature Plot](results/03A_canonical_markers_featureplot.png)
