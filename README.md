@@ -23,7 +23,7 @@ I checked total gene counts (`nFeature_RNA`) and mitochondrial gene percentages 
 ### 2. Normalization, PCA & UMAP Clustering
 * Normalized cell expression values using log-normalization (`scale.factor = 10000`).
 * Selected the top 2,000 Highly Variable Genes (HVGs) driving cell-to-cell heterogeneity.
-* Scaled the data and ran Principal Component Analysis (PCA) across 30 PCs.
+* Scaled the data (Z-score transformation) and ran Principal Component Analysis (PCA) across 30 PCs.
 * Built a 20D K-Nearest Neighbor (KNN) graph and ran Louvain clustering (`resolution = 0.5`), identifying 24 distinct cell clusters.
 * Generated UMAP projections to check sample mixing. Patient samples `DTB_01`–`DTB_04` and `DTB_06` mixed smoothly across immune populations, confirming no severe technical batch artifacts.
 
